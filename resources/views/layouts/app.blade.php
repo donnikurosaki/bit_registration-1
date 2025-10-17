@@ -184,14 +184,14 @@
                         </a>
                         <a href="{{ route('about') }}"
                             class="{{ request()->routeIs('about') ? 'bg-primary-50 border-accent text-gray-900' : 'border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700' }} block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
-                            {{ __('A propose') }}
+                            {{ __('A propos') }}
                         </a>
                         <a href="{{ route('submission') }}"
                             class="{{ request()->routeIs('submission') ? 'bg-primary-50 border-accent text-gray-900' : 'border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700' }} block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
                             {{ __('Admission') }}
                         </a>
                         <a href={{ route('filetracking') }} class="border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
-                            {{ __('Suiver mon dossier') }}
+                            {{ __('Suivre mon dossier') }}
                         </a>
                         <a href="{{ route('contact') }}"
                             class="{{ request()->routeIs('contact') ? 'bg-primary-50 border-accent text-gray-900' : 'border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700' }} block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
